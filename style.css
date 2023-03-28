@@ -1,0 +1,74 @@
+@charset"UTF-8";
+@font-face {
+    font-family: 'surfquest';
+    src: url('font/surfquest.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'pixelari';
+    src: url('font/pixellari.ttf') format('truetype');
+}
+
+body{
+    border: 0px;
+    background-image: url(img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    width: 90vw;  
+}
+
+main{
+    width: 400px;
+    margin: auto;
+}
+
+.menu{
+    font-family: 'surfquest', Courier, monospace;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.menu img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.inic{
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 165px;
+}
+
+.contin{
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    left: 150px;
+}
+
+.config{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 130px;
+}
+
+.exit{
+    position: absolute;
+    text-align: center;
+    top: 330px;
+    left: 176px;
+}

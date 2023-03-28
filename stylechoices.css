@@ -1,0 +1,117 @@
+@charset"UTF-8";
+
+@font-face {
+    font-family: 'bit';
+    src: url(font/upheavtt.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'pixelari';
+    src: url('font/pixellari.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'atari';
+    src: url('font/atari.ttf') format('truetype');
+}
+
+body{
+    font-family: 'bit', Courier, monospace;
+    margin: auto;
+    border: 0px;
+    background-image: url(img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    width: 90vw;  
+}
+
+main{
+    width: 90vw;
+    margin: 0px auto;
+    line-height: 20px;
+}
+
+.imgban{
+    margin: auto;
+    width: 400px;
+}
+
+.menu{
+    font-family: 'atari', Courier, monospace;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.menu img{
+    width: 100%;
+}
+
+section{
+    text-align: center;
+}
+
+.choicesoutside{
+    background-color: black;
+    width: 60vw;
+    padding: 0.5vw;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.choicesinside{
+    margin: auto;
+    width: 59vw;
+    background-color: black;
+    border: 0.5vw solid rgb(50, 192, 228);
+    font-family: 'bit', Courier, monospace;
+    font-size: 24px;
+    position: relative;
+    line-height: 30px;
+}
+
+p{
+    padding: 10px;
+    color: rgb(187, 187, 187);
+    text-align: center;
+}
+
+a{
+    margin: 40px 5px 0px 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px 0px 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.choice1{
+    font-family: 'atari', Courier, monospace;
+    font-size: 20px;
+    background-color: black;
+    width: 60vw;
+    padding: 10px;
+    margin: 50px auto 40px auto ;
+    
+}
+
+.choice2{
+    font-family: 'atari', Courier, monospace;
+    font-size: 20px;
+    background-color: black;
+    width: 60vw;
+    padding: 10px;
+    margin: auto;
+}
+
+nav{
+    margin: 50px 0px 0px 0px;
+
+}
+
+.linkmenu{
+    margin: 0px;
+}
