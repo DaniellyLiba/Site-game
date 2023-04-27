@@ -19,7 +19,8 @@ body{
     font-family: 'bit', Courier, monospace;
     margin: auto;
     border: 0px;
-    background-color: rgba(25, 106, 126, 0.63);
+    background: black url('img/fundo.jpeg') center center no-repeat fixed;
+    background-size: cover;
     height: 98vh;
     width: 90vw;  
 }
