@@ -114,3 +114,8 @@ nav{
 .linkmenu{
     margin: 0px;
 }
+
+img.iconcasa{
+    border-radius: 35px;
+    background: #00000062;
+}
